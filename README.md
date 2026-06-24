@@ -1,7 +1,8 @@
 # 🛒 Flipkart Sales & Product Analytics Dashboard
 
+
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Flipkart_logo.png" width="280">
+  <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png" width="300">
 </p>
 
 ---
