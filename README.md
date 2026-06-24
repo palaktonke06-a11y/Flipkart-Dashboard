@@ -1,40 +1,194 @@
-📊 Project Name: Flipkart Sales & Product Analytics Dashboard
+# 🛒 Flipkart Sales & Product Analytics Dashboard
 
-📝 Project Overview
-This project addresses the challenge of monitoring and analyzing large-scale e-commerce data on Flipkart. The goal was to transform raw product logs into actionable insights regarding customer satisfaction, pricing structures, and category-wise sales distribution. By designing this interactive dashboard, I provided a solution that allows businesses to instantly track product rating distributions, identify high-expense items, evaluate seller performance, and understand the customer purchase funnel across diverse categories.
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Flipkart_logo.png" width="280">
+</p>
 
-🚀 Key Features & Insights
-Comprehensive Rating Analysis: Tracks the sum of seller ratings and product rating distributions to spot quality trends.
-Pricing Breakdown: Easily isolates high-value products and evaluates the correlation between MRP and the actual selling price.
-Category-wise Filtering: Breaks down performance across multiple layers (Category 1, 2, and 3) spanning Women's wear, Home & Furniture, Electronics, and more.
+---
 
-1. Main Overview Dashboard
+## 📝 Project Overview
 
-Visuals Breakdown:
-KPI Cards: Displays Overall Product Ratings (145.00) and Maximum Retail Price (MRP: 395).
-Donut Chart (Ratings by Category): Represents Category 1 distribution, highlighting Home & Furniture as a leading segment at 30.81%.
-Bar Chart (Top Expensive Products): Compares the selling counts of high-end brands/products like Vastr, N.B.F, and Praka.
-Gauge Chart (Title by Category): Measures overall volume metric currently tracking at 18.20K.
-Histogram (Product Rating Distribution): Plots the sum of seller ratings against product ratings, showing a dense concentration around the 4.0 to 4.5 mark.
-Matrix Table: Drills down into Category 1, 2, and 3 details (e.g., Women's wear \rightarrow Beauty & Grooming \rightarrow Bath and Spa).
+The Flipkart Sales & Product Analytics Dashboard was developed to transform large-scale e-commerce product data into meaningful business insights. The project focuses on analyzing product ratings, pricing structures, seller performance, and category-wise product distribution to help businesses make data-driven decisions.
 
-2. Product & Seller Performance Analysis
+Using interactive Power BI visualizations, this dashboard enables users to monitor customer satisfaction trends, identify premium products, evaluate seller quality, and understand category performance across Flipkart's extensive marketplace ecosystem.
 
-Visuals Breakdown:
-KPI Cards: Tracks Average Rating (305.00), Sum of Selling Price (19.71K), and first selling price baseline (₹1,000).
-Area Chart (Title across Category): Smoothly visualizes product count trends dipping from Home & Furniture down to Men's wear.
-Funnel Chart (Product Distribution Funnel): Explicitly ranks item counts flowing down from Home and Furniture (5.81K) to Men's wear (1.27K).
-Detailed Product Table: A deep-dive matrix mapping out specific sellers (like ROCK STAR, GShoppe, TheAstrum), their exact item MRPs, specific Product/Seller ratings, and the final Selling Price.
+---
 
-🛠️ Tech Stack Used
-Tool: Power BI Desktop
-Data Source: Flipkart Product Sales Dataset (Excel / CSV)
-DAX Functions & Metrics: Average Ratings, Sum of Selling Price, Product Distribution Volume, and Category Count Breakdown.
+## 🚀 Key Features & Insights
 
-📷 Dashboard Screenshots
+### ⭐ Comprehensive Rating Analysis
+- Analyze product and seller rating distributions.
+- Identify highly rated product categories.
+- Track customer satisfaction trends.
 
-1. Main Overview Dashboard
-<img src="Screenshot 2026-06-14 130312.png" width="100%">
+### 💰 Pricing & Revenue Insights
+- Compare Maximum Retail Price (MRP) with Selling Price.
+- Identify premium and high-value products.
+- Analyze pricing patterns across categories.
 
-2. Product & Seller Performance Analysis
-<img src="Screenshot 2026-06-14 130350.png" width="100%">
+### 🛍️ Category Performance Analysis
+- Explore Category 1, Category 2, and Category 3 distributions.
+- Identify top-performing product segments.
+- Compare product volume across categories.
+
+### 🏪 Seller Performance Monitoring
+- Evaluate seller ratings and product offerings.
+- Compare pricing strategies among sellers.
+- Identify top-performing sellers in the marketplace.
+
+---
+
+# 📊 Dashboard 1: Main Overview Dashboard
+
+### Visuals Included
+
+#### 🔹 KPI Cards
+Displays key marketplace metrics:
+- Overall Product Ratings
+- Maximum Retail Price (MRP)
+- Product Volume Indicators
+
+#### 🔹 Ratings by Category
+Donut chart showing:
+- Category-wise rating distribution
+- Top-performing categories
+- Customer satisfaction trends
+
+#### 🔹 Top Expensive Products
+Bar chart comparing:
+- High-value products
+- Premium brands
+- Product pricing comparisons
+
+#### 🔹 Product Volume Gauge
+Gauge chart displaying:
+- Total product volume
+- Category contribution levels
+- Marketplace inventory scale
+
+#### 🔹 Product Rating Distribution
+Histogram analyzing:
+- Seller ratings
+- Product ratings
+- Rating concentration trends
+
+#### 🔹 Category Matrix Table
+Interactive drill-down view for:
+- Category 1
+- Category 2
+- Category 3
+- Product hierarchy exploration
+
+### 📷 Dashboard Screenshot
+
+![Main Overview Dashboard](Screenshot%202026-06-14%20130312.png)
+
+---
+
+# 📊 Dashboard 2: Product & Seller Performance Analysis
+
+### Visuals Included
+
+#### 🔹 KPI Cards
+Tracks:
+- Average Rating
+- Total Selling Price
+- Baseline Selling Price
+
+#### 🔹 Product Count by Category
+Area chart visualizing:
+- Product distribution trends
+- Category-wise product volume
+- Marketplace coverage
+
+#### 🔹 Product Distribution Funnel
+Funnel chart displaying:
+- Product count flow by category
+- Top-performing segments
+- Inventory concentration
+
+#### 🔹 Seller Performance Matrix
+Detailed table showing:
+- Seller Name
+- Product MRP
+- Product Ratings
+- Seller Ratings
+- Selling Price
+
+### 📷 Dashboard Screenshot
+
+![Product & Seller Dashboard](Screenshot%202026-06-14%20130350.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- Excel / CSV Dataset
+- Data Modeling & Relationships
+
+### Key DAX Metrics
+- Average Rating
+- Sum of Selling Price
+- Product Distribution Volume
+- Category Count Breakdown
+- Seller Rating Analysis
+- Product Pricing Metrics
+
+---
+
+## 📂 Dataset
+
+The dataset contains Flipkart product information including:
+
+- Product Name
+- Product Category
+- Seller Information
+- Product Rating
+- Seller Rating
+- Selling Price
+- Maximum Retail Price (MRP)
+- Product Counts
+
+---
+
+## 📈 Skills Demonstrated
+
+- Data Cleaning & Transformation
+- Data Modeling
+- DAX Calculations
+- E-Commerce Analytics
+- KPI Development
+- Seller Performance Analysis
+- Interactive Dashboard Design
+- Business Intelligence Reporting
+
+---
+
+## 🎯 Business Value
+
+✅ Monitor customer satisfaction through product ratings
+
+✅ Analyze category-wise marketplace performance
+
+✅ Compare MRP and actual selling prices
+
+✅ Evaluate seller effectiveness and product quality
+
+✅ Identify premium products and pricing strategies
+
+✅ Understand product distribution across categories
+
+---
+
+## 🔗 Project Link
+
+### GitHub Repository
+
+👉 https://github.com/palaktonke06-a11y/Flipkart-Dashboard
+
+---
+
+⭐ If you found this project useful, don't forget to star the repository.
